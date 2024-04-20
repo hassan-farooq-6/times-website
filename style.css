@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        font-size: 3.5vh
+      
+      
+      
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #d70606;
+    transition: 0.3s;
+
+}
+
+.subscribe-btn .btn {
+    background-color: red;
+    transition: 0.3s;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.subscribe-btn .btn:hover {
+    background-color: darkred;
+}
+
+/* styles for the new bar  */
+
+/* Styles for the sub-header */
+.sub-header {
+    background-color: #454343;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    /* width: 100%; */
+}
+
+/* Styles for the hamburger menu button */
+.menu-btn .hamburger {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.menu-btn .hamburger::before,
+.menu-btn .hamburger::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.menu-btn .hamburger::before {
+    top: -8px;
+}
+
+.menu-btn .hamburger::after {
+    bottom: -8px;
+}
+
+/* Styles for the newsletter text */
+.newsletter-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.newsletter-text a {
+    background-color: #454343;
+    color: white;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Example size, adjust as needed */
+    font-weight: bold; /* Example weight, adjust as needed */
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+}
+
+
+.newsletter-text a {
+    color: white;
+    text-decoration: none; /* Remove underline from the link */
+    transition: color 0.3s; /* Smooth transition for text color */
+}
+
+.newsletter-text a:hover {
+    color: rgb(255, 0, 0); /* Change text color to red on hover */
+    transition: 0.5s;
+}
+
+.search-btn{
+    margin-right: 15px;
+}
+
+/* Styles for the search button icon */
+.search-btn .search-icon {
+    width: 30px;
+    height: 30px;
+
+    
+    /* background-image: url('search_icon.png'); /* Replace with your search icon */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none; 
+    
+}
+
+
+
+
+/* Add styles for the content */
+
+/* 
+/* Add styles for the content */
+
+.content {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-bottom: 40px;
+    
+
+}
+
+.left-column {
+    flex: 6; /* Increase the size of the left column */
+}
+
+.left-column img {
+    width: 100%;
+}
+
+.right-column {
+    flex: 3; /* Decrease the size of the right column */
+    padding-left: 20px; /* Increase the padding for better separation */
+    
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.right-column h2 {
+    color: #000;
+    margin-top: 7px; 
+    margin-right: 0; 
+    margin-bottom: 19px; 
+    margin-left: 20px; 
+}
+
+.right-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-column li {
+    margin-bottom: 20px;
+    text-decoration: und;
+}
+.right-column h3 {
+    color: #d70606;
+    margin-bottom: 5px;
+}
+
+.right-column p {
+    color: #666;
+}
+
+.right-column span {
+    color: #000;
+}
+
+.new-sec {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.img-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-inline:auto;
+    
+}
+
+.img-div img {
+    max-width: 250px;
+    transition: transform 0.3s; 
+
+}
+
+.img-div img:hover {
+    transform: scale(1.1); /* Make the image 10% larger on hover */
+}
+
+.footer-logo img{
+    max-width: 190px;
+    margin-bottom:25px ;
+}
+.footer-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-icon img {
+    margin: 0 5px; /* Adjust the margin as needed */
+}
+    
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.ol-edit span{
+    font-weight: bolder;
+}
+.ol-edit p{
+    color: #000;
+    }
+.ol-edit p:hover{
+    color: #d70606;
+}
+
+.footer-column p {
+    margin: 30px 0;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+.footer-para{   
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+.footer-container p:hover{
+    color: #d70606;
+}
+
+
+
+
+
