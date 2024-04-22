@@ -187,6 +187,11 @@ nav ul li a:hover {
     width: 100%;
 }
 
+.main-img{
+    height: 500px;
+}
+
+
 .right-column {
     flex: 3; /* Decrease the size of the right column */
     padding-left: 20px; /* Increase the padding for better separation */
@@ -246,7 +251,7 @@ nav ul li a:hover {
 }
 
 .img-div img {
-    max-width: 250px;
+    max-width: 210px;
     transition: transform 0.3s; 
 
 }
