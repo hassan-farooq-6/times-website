@@ -86,6 +86,26 @@ nav ul li a:hover {
     border: none;
     cursor: pointer;
     position: relative;
+    transition: transform 0.3s ease;
+}
+
+.menu-btn .hamburger::before,
+.menu-btn .hamburger::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.menu-btn .hamburger::before {
+    top: -8px;
+}
+
+.menu-btn .hamburger::after {
+    bottom: -8px;
 }
 
 
