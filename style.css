@@ -67,9 +67,7 @@ nav ul li a:hover {
     background-color: darkred;
 }
 
-/* styles for the new bar  */
 
-/* Styles for the sub-header */
 .sub-header {
     background-color: #454343;
     padding: 10px 20px;
@@ -77,10 +75,10 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    /* width: 100%; */
+    
 }
 
-/* Styles for the hamburger menu button */
+
 .menu-btn .hamburger {
     width: 30px;
     height: 2px;
@@ -110,7 +108,6 @@ nav ul li a:hover {
     bottom: -8px;
 }
 
-/* Styles for the newsletter text */
 .newsletter-text{
     display: flex;
     align-items: center;
@@ -124,8 +121,8 @@ nav ul li a:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px; /* Example size, adjust as needed */
-    font-weight: bold; /* Example weight, adjust as needed */
+    font-size: 16px; 
+    font-weight: bold; 
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -135,12 +132,12 @@ nav ul li a:hover {
 
 .newsletter-text a {
     color: white;
-    text-decoration: none; /* Remove underline from the link */
-    transition: color 0.3s; /* Smooth transition for text color */
+    text-decoration: none; 
+    transition: color 0.3s; 
 }
 
 .newsletter-text a:hover {
-    color: rgb(255, 0, 0); /* Change text color to red on hover */
+    color: rgb(255, 0, 0);
     transition: 0.5s;
 }
 
@@ -148,13 +145,13 @@ nav ul li a:hover {
     margin-right: 15px;
 }
 
-/* Styles for the search button icon */
+
 .search-btn .search-icon {
     width: 30px;
     height: 30px;
 
     
-    /* background-image: url('search_icon.png'); /* Replace with your search icon */
+    background-image: url('search_icon.png'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-color: transparent;
@@ -165,10 +162,7 @@ nav ul li a:hover {
 
 
 
-/* Add styles for the content */
 
-/* 
-/* Add styles for the content */
 
 .content {
     display: flex;
@@ -180,7 +174,7 @@ nav ul li a:hover {
 }
 
 .left-column {
-    flex: 6; /* Increase the size of the left column */
+    flex: 6;
 }
 
 .left-column img {
@@ -193,8 +187,8 @@ nav ul li a:hover {
 
 
 .right-column {
-    flex: 3; /* Decrease the size of the right column */
-    padding-left: 20px; /* Increase the padding for better separation */
+    flex: 3; 
+    padding-left: 20px;
     
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -257,7 +251,7 @@ nav ul li a:hover {
 }
 
 .img-div img:hover {
-    transform: scale(1.1); /* Make the image 10% larger on hover */
+    transform: scale(1.1);
 }
 
 .footer-logo img{
@@ -277,7 +271,7 @@ nav ul li a:hover {
 }
 
 .footer-icon img {
-    margin: 0 5px; /* Adjust the margin as needed */
+    margin: 0 5px; 
 }
     
 
